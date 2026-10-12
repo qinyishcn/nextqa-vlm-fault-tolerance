@@ -59,7 +59,13 @@ def encode_cache(runtime, assets, audit, output):
     identity = {'model_revision': '013210b3aff822f1558b166d39c1046dd109520f',
         'source_revision': 'bce12e479bc4dfee2b9c50c88137b01ff51bd483',
         'protocol': 'official-siglip-project-bilinear-bf16-batch4-v1'}
+    # Encoding does not use these two large, unquantized language modules.
+    # Free their VRAM without changing the vision/projector computation.
+    language_modules = [runtime.model.get_model().embed_tokens, runtime.model.lm_head]
+    for module in language_modules:
+        module.to('cpu')
     runtime.vision_device(runtime.device)
+    resumed_encoding_checked = False
     for metadata in audit['video_metadata']:
         video = metadata['video_id']
         target, saved = folder / f'{video}.safetensors', folder / f'{video}.json'
@@ -68,6 +74,12 @@ def encode_cache(runtime, assets, audit, output):
             if (record['identity'] != identity or record['video_sha256'] != metadata['video_sha256']
                     or file_hash(target) != record['file_sha256']):
                 raise ValueError(f'Existing feature cache identity mismatch: {video}')
+            if not resumed_encoding_checked:
+                rows = sorted(metadata['frames'], key=lambda row: row['frame_index'])[:4]
+                recomputed = runtime.encode([assets / 'frames' / video / row['file'] for row in rows])
+                if [tensor_hash(frame) for frame in recomputed] != record['per_frame_f32_sha256'][:len(rows)]:
+                    raise ValueError('Encoding-only CPU placement changed existing feature bytes')
+                resumed_encoding_checked = True
         else:
             rows = sorted(metadata['frames'], key=lambda row: row['frame_index'])
             paths = [assets / 'frames' / video / row['file'] for row in rows]
@@ -89,8 +101,12 @@ def encode_cache(runtime, assets, audit, output):
             del tensor, features
         records.append(record)
         print(f'Feature caches verified {len(records)}/60; video={video}', flush=True)
-    save_json(output / 'feature_cache_audit.json', {'status': 'passed', 'videos': len(records), 'records': records})
+    save_json(output / 'feature_cache_audit.json', {'status': 'passed', 'videos': len(records), 'records': records,
+        'encoding_memory_placement': 'Unused language embed_tokens/lm_head on CPU during vision encoding only',
+        'resumed_encoding_byte_parity_checked': resumed_encoding_checked})
     runtime.vision_device('cpu')
+    for module in language_modules:
+        module.to(runtime.device)
 
 
 def evaluate(runtime, assets, manifest, plan, audit, output):
