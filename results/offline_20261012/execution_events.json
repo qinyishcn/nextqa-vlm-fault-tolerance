@@ -12,7 +12,7 @@
       "resume_gate": "Recomputed first four cached frames must match their existing feature hashes",
       "observed_resume_gate": "Passed before accepting existing cache 1/60",
       "first_three_new_video_encode_seconds": [9.14, 9.30, 9.83],
-      "checkpoint_native_filesystem_load_seconds": 15.49
+      "checkpoint_native_filesystem_load_approx_seconds": 15.5
     }
   ]
 }
