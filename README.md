@@ -1,12 +1,15 @@
 # NExT-QA 视频依赖与特征容错实验
 
-**当前状态：数据与对照准备阶段；尚无 LLaVA 模型推理结果。**
-模型待明确：名称 `LLaVA-NeXT-Video` 与所给链接介绍的 `LLaVA-Video` 是两个系列。
+**当前状态：推理环境与切分适配准备阶段；尚无 LLaVA 模型推理结果。**
+用户已确认采用 `LLaVA-Video-7B-Qwen2`，先完成固定495题的全部对照。
 以下随机基线由随机选项生成器计算，不代表任何模型准确率。
 
 目标是测量正常视觉相对纯文本的增益，区分帧数、时间覆盖和时间顺序的作用，
 并测量视觉中间特征分包擦除后的任务准确率。预先约定见 [protocol.md](docs/protocol.md)。
 各条件保留同一题目分母，缺失与无效答案计错，完整保留0%至100%擦除结果。
+冻结的 [条件矩阵](configs/experiment.json) 共48组、23,760个固定答题槽位。
+正常视觉测试1/4/16/64帧；容错曲线锚点为全视频等间隔16帧，
+13个擦除率点、3组随机掩码，0%与100%确定端点各运行一次。
 
 ## 已固定的数据与基线
 
@@ -74,10 +77,11 @@ NExT-QA: Xiao, Junbin; Shang, Xindi; Yao, Angela; Chua, Tat-Seng.
 pp. 9777–9786. [官方仓库](https://github.com/doc-doc/NExT-QA)。
 该仓库MIT许可证保留于 [docs/licenses/NExT-QA.txt](docs/licenses/NExT-QA.txt)。
 
-模型候选：
-
-- [链接对应的 LLaVA-Video-7B-Qwen2](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)
-- [名称对应的 LLaVA-NeXT-Video-7B](https://huggingface.co/llava-hf/LLaVA-NeXT-Video-7B-hf)
+模型采用 [LLaVA-Video-7B-Qwen2](https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2)，
+固定权重revision `013210b3aff822f1558b166d39c1046dd109520f`；
+官方运行源码revision `bce12e479bc4dfee2b9c50c88137b01ff51bd483`。
+本机8GB显存采用语言模型线性层NF4双量化、BF16计算，
+视觉塔、投影器、词嵌入与输出头不做4-bit量化。
 
 [LLaVA-Video 官方介绍](https://llava-vl.github.io/blog/2024-09-30-llava-video/)
 公开的训练混合包含NExT-QA。这说明数据集域有重合，不能由此推断验证集标签已泄漏，
