@@ -1,0 +1,86 @@
+{
+  "repository": "lmms-lab/LLaVA-Video-7B-Qwen2",
+  "revision": "013210b3aff822f1558b166d39c1046dd109520f",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7557,
+      "sha256": "2d7e1e2db28d7708d9f5e68e7ee6a01733e45cf2c804608a4eaa5da3de89427c"
+    },
+    {
+      "path": "added_tokens.json",
+      "bytes": 100,
+      "sha256": "416774498bd7218f05be8c7faa0b375eccdcacf66cb5ab2766bdeff84e466cf5"
+    },
+    {
+      "path": "config.json",
+      "bytes": 3104,
+      "sha256": "b1b15dbc50d62a6dafd637b98f333e6e789913e1f374842838c461ae20a8880c"
+    },
+    {
+      "path": "generation_config.json",
+      "bytes": 248,
+      "sha256": "eea6735f058019c875227b53de54f34353f01bbdbb0e9d8fc6474567e1334c29"
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "bytes": 4877668032,
+      "sha256": "2625213dd97a944180a7ba6776501709f6094e9c07295101518d69ca8ccfb5ad"
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "bytes": 4932751008,
+      "sha256": "bc4fadb1419522b41c58d36f46e29d6f0cba5fcb35b74c0d1887692852f3d98b"
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "bytes": 4994571904,
+      "sha256": "94aca0e44c71e4640b40cdbadd995a234937168c72c552e0d2d13036ca96cc68"
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "bytes": 1255812224,
+      "sha256": "3cbb8d7cfb44f868dd672a11b677dadcbde5428dc744a23f4393508aaeb1f22d"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "bytes": 80832,
+      "sha256": "2c5e4f760960cb00a85de88caf55a798eed0685773cdd9d04a6d4438238c134c"
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 392,
+      "sha256": "055d8032c3be9a5c35cffc27cc5fce5b0891a5ad8a2bda82f9b98c59b2e9d592"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "bytes": 367,
+      "sha256": "f4f79e08d97f4d1c87f8d89264f525c8789da3b73b3bb55d1e12f692f41a7b1b"
+    },
+    {
+      "path": "tokenizer.json",
+      "bytes": 7028015,
+      "sha256": "f7c9b2dba4a296b1aa76c16a34b8225c0c118978400d4bb66bff0902d702f5b8"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 1538,
+      "sha256": "b36d4cfd510e8942ba3a5f4733026c5f1697b2810331be4fc9459c672e451e6a"
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "weight_download_mirror": {
+    "repository": "QwenCollection/LLaVA-NeXT-Video-7B-Qwen2",
+    "revision": "d21b696615745ad7779b1d8ef9d74bc48ef23ad4",
+    "all_weight_sha256_equal_pinned_huggingface": true
+  }
+}

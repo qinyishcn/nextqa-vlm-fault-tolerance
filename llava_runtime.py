@@ -96,6 +96,9 @@ class LlavaRuntime:
             'packages': {key: importlib.metadata.version(key) for key in packages},
             'feature_boundary': 'official get_2dPool output, before add_token_per_grid',
             'feature_wire_dtype': 'little-endian float32',
+            'implementation_sha256': {name: hashlib.sha256(
+                (Path(__file__).parent / name).read_text(encoding='utf-8').encode()).hexdigest()
+                for name in ['llava_runtime.py', 'prefix_cache.py', 'study_controls.py']},
             'generation': {'do_sample': False, 'num_beams': 1, 'repetition_penalty': 1.0,
                            'max_new_tokens': 8, 'eos_token_id': self.model.generation_config.eos_token_id}}
 
@@ -183,8 +186,8 @@ class LlavaRuntime:
             ids, digest = self.prompt_ids(question, timing, pooled is not None)
             sequences.append(ids[0].tolist())
             prompt_hashes.append(digest)
-        length = common_prefix(sequences)
-        if length < 1 or any(length == len(row) for row in sequences):
+        length = min(common_prefix(sequences), min(len(row) - 1 for row in sequences))
+        if length < 1:
             raise ValueError('Question suffix must remain outside the shared prefix')
         ids = torch.tensor([sequences[0][:length]], dtype=torch.long, device=self.device)
         embeddings, received = self.prepare(ids, pooled)
