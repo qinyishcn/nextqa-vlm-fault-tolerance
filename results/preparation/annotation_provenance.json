@@ -1,0 +1,26 @@
+{
+  "repository": "doc-doc/NExT-QA",
+  "revision": "2432e9724f88ed9f40010e2989f104570a91de4e",
+  "files": [
+    {
+      "path": "dataset/nextqa/val.csv",
+      "sha256": "43198bdef8436b8d64a9b75d846b0987c10cbf94ebf4be325c4a4e54634d66b8",
+      "bytes": 814107
+    },
+    {
+      "path": "dataset/nextqa/map_vid_vidorID.json",
+      "sha256": "1955d89e7a175346faf8d4a582297ff349619231394f59fd7872f459ac8a8685",
+      "bytes": 331540
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7ba077d25ffc3137200430d2a6b82b81d68671dfda732b5e8582f8e632ef8714",
+      "bytes": 1063
+    },
+    {
+      "path": "README.md",
+      "sha256": "8f9853e632ba2aa39de02e5e8fd3718134192552c19ce2bb5af0a167f8ecb37b",
+      "bytes": 7616
+    }
+  ]
+}

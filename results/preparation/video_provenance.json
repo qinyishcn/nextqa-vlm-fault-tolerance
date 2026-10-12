@@ -1,0 +1,542 @@
+[
+  {
+    "video_id": "2435100235",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2435100235.mp4",
+    "sha256": "97885085958eb3dbfddc8e798b62d979df1f3d01b1125c97ec0e6aec4821e26a",
+    "bytes": 6623500,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2599937944",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2599937944.mp4",
+    "sha256": "84e4458e62fa129b3432c96bb7a06f2e8d79e4abc3b14fbefeb6052c2ddf58bc",
+    "bytes": 1530061,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2736413196",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2736413196.mp4",
+    "sha256": "ea88e37c030f5e1906a92572096058a8857eef00a65c8ac2522104816d07852a",
+    "bytes": 5724660,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2793806282",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2793806282.mp4",
+    "sha256": "3c3fe1be0d190533edb32057005f2df97acfeaf47f199f3370602bc4a4131d66",
+    "bytes": 6338405,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2834146886",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2834146886.mp4",
+    "sha256": "74f0fb8b0852a5829ebe52f401a9e2d3437f72fee5a0e375af1b6f512ca1be0d",
+    "bytes": 6032364,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2957808913",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2957808913.mp4",
+    "sha256": "22ba6829d6fe31e8ad8fb86854da3d02e40126285b9c81cb86c43e5bee167c8e",
+    "bytes": 1915148,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2977504625",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2977504625.mp4",
+    "sha256": "c6fd34bf9be55525b01d83c1cd89026b944d9f633e3bb2415981235a0d8e8674",
+    "bytes": 1658577,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2984974097",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2984974097.mp4",
+    "sha256": "ce82cb8da378cfe425204e72c2d9124a9bc4d8d380c2f02d1f9feb4491d68933",
+    "bytes": 2963607,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "2990321092",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "2990321092.mp4",
+    "sha256": "5ac1f2f2bab499afd296f785cf1c08d52f9af2116ab851fafbd9e8de11833cfc",
+    "bytes": 2192235,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3171006258",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3171006258.mp4",
+    "sha256": "8bea94464840ad07f8595d506799f92b0ff8c405bb8c24adf0ee9220ee68ef6a",
+    "bytes": 3518848,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3321261856",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3321261856.mp4",
+    "sha256": "fe25d944e23fda3493129aea9484e6da6a8a6223b86eb8ee071afc2ea025e445",
+    "bytes": 2966336,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3372023610",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3372023610.mp4",
+    "sha256": "62c1012ea13cfeaf6f57770afb00aa632709f273af160e588384a01013c17940",
+    "bytes": 3531146,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3445431963",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3445431963.mp4",
+    "sha256": "2591a63a6999b5f4b24195608e86d81c86e2dc75b7b61f1d4de81a03d16b8317",
+    "bytes": 5535069,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3655906094",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3655906094.mp4",
+    "sha256": "480bdc281aa740267f9dc980ce9074b9b4f601734316d834fb8d6a42ba5f6f27",
+    "bytes": 1947275,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "3708066257",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "3708066257.mp4",
+    "sha256": "339b22af2c430b0f4784d05836a07e3f0456a973103fae68141a45874cb16212",
+    "bytes": 2067451,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4130504920",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4130504920.mp4",
+    "sha256": "f3b3a682df5bd9f915436cf66f384f73fbfe21c950d7329bde10f36393629a0b",
+    "bytes": 1461058,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4132599924",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4132599924.mp4",
+    "sha256": "90c656e8507062388bd95b5efb7afd4e3ece46bb3f8ae31d2956695ae9b1a7df",
+    "bytes": 2707336,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4146348376",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4146348376.mp4",
+    "sha256": "c63b85dc18942263c850252849ce88a17bb0cf3249bcbc19add9e25f6128becd",
+    "bytes": 5506840,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4151403382",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4151403382.mp4",
+    "sha256": "18026efb3c4941a22b82c5b482809e5f7a955d9ff0d0ed37fcb9a010d7ef4fc6",
+    "bytes": 6515838,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4336654741",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4336654741.mp4",
+    "sha256": "76caa60f3c0d446402eeba474b8adaa157ec98f6224591d5a18e61bf9727bdef",
+    "bytes": 9370910,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4412508597",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4412508597.mp4",
+    "sha256": "ce3ca0d5b42c02107652abfee10a6965e317dfdb92a1715bd4a696f1ae82e358",
+    "bytes": 1235850,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4485498145",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4485498145.mp4",
+    "sha256": "1767c7d05daf1c6597426b958d921fffcb204da5036a53bd14c8ae0c3a59e6f0",
+    "bytes": 1719861,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4857781123",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4857781123.mp4",
+    "sha256": "7efa1c240e4382725ac98184b9f304154451c0d79f09dc4ed5aaa8528e9274ca",
+    "bytes": 3823085,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "4968805923",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "4968805923.mp4",
+    "sha256": "bd89b7b2c7f69024e8cb1b6dcae453edbf91d66ee50174f7b14aca02557fe8c2",
+    "bytes": 1075977,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5008618500",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5008618500.mp4",
+    "sha256": "59820107586ce1b741420f8c4b39ba4898309b5008714bcb5cb5e7128640562c",
+    "bytes": 2614695,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5026660202",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5026660202.mp4",
+    "sha256": "91cc6bdde1d40d47c05c4ea0920e3c7c2228de8307f95c3e30fb8a1a4fe1ad7c",
+    "bytes": 9371033,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5116088152",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5116088152.mp4",
+    "sha256": "836df2daf82cfcfb8aef30da8e2fecd6f64df48e764af316b6226ef645a5537a",
+    "bytes": 4184093,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5205081904",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5205081904.mp4",
+    "sha256": "dd23e7757a71f938606172410b3d33dd9ceb49096918f8875eb6cbc515849561",
+    "bytes": 2165753,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5237219621",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5237219621.mp4",
+    "sha256": "d794b461cc6689e03ae1e12f26fcf191d701a6adcef9e1ce5918b2dae7cc9b7a",
+    "bytes": 9311789,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5308503740",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5308503740.mp4",
+    "sha256": "be75c3dd830f8f993431d19a0216e6fbda5f4bbacbc9528b47d94c74042a6b20",
+    "bytes": 5583775,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5349969207",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5349969207.mp4",
+    "sha256": "074c2ab5bac43f9343ced82979c53cf532ac5c9facd824a7536d4d484fbec19e",
+    "bytes": 4137241,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5533380417",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5533380417.mp4",
+    "sha256": "481ce81833a3cb2fc06dcbbce44e6a7ce2629cf7930a0d7f36a12b6680ddfda0",
+    "bytes": 1393467,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5667931404",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5667931404.mp4",
+    "sha256": "183da9a1f31e2c32b008732253d7f3dece42af53a9c67d379ab644ef0e75177c",
+    "bytes": 1159354,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5766018720",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5766018720.mp4",
+    "sha256": "221e6afc696fcc5401537a76951d3035b39e9b541b91ae82dd8082d288d35aaa",
+    "bytes": 6374911,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5919180502",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5919180502.mp4",
+    "sha256": "89314729f45f523e4ce480933a9e9593e1b271cce429f7b45cf3ae3ac557b44f",
+    "bytes": 4812536,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5933003028",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5933003028.mp4",
+    "sha256": "a60056501c2989762771864b0d2e425378640d2703eb539d5f3cef256e2aa097",
+    "bytes": 4109903,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "5940941487",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "5940941487.mp4",
+    "sha256": "32ee4120b754c2e3e439c9f6f23ea07e0cc4cf1233ce62d88008574b06ce19c1",
+    "bytes": 3513492,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6078524411",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6078524411.mp4",
+    "sha256": "ce8c1c1b2fecab7aeaf7611c6ce1e940fdf813b2b5de076358d8c6aa66c67e8d",
+    "bytes": 8732763,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6291413193",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6291413193.mp4",
+    "sha256": "2a8916aea290ef3a61d54e0184e0b45a7a16124f158a5fb7e58e640967b97156",
+    "bytes": 6890981,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6329954198",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6329954198.mp4",
+    "sha256": "019b148fdc49b972d4943233bbd7ef22c68e547740b46cd591eead57b11c127f",
+    "bytes": 2436580,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6516459343",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6516459343.mp4",
+    "sha256": "e4f39a492bc1da7a51e0c300d3af9a2b735d6b584435eef95088e1276755e269",
+    "bytes": 9372796,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6542914065",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6542914065.mp4",
+    "sha256": "7c9cd2bef2e013126eb4c09c496f20046c7e15f1037e3ecaa2459eb306cab93e",
+    "bytes": 1083594,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6582763207",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6582763207.mp4",
+    "sha256": "e628a7d8276f59c713723bb827706460d0eaeab4d9e63fef9ffd1911349f904e",
+    "bytes": 3053822,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6592821115",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6592821115.mp4",
+    "sha256": "e96d33633814dc6f44ea0e5cba149e9a368c28e049e5778f4c0494910f8c9d94",
+    "bytes": 7865377,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "6621511673",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "6621511673.mp4",
+    "sha256": "d35314815e051331fbfa8098070f77bb831b0e35dd94f5e258d129303dc730a1",
+    "bytes": 9372485,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "7442562474",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "7442562474.mp4",
+    "sha256": "0f4d12940e9896f4a1985e0d8f27afdce76fa8ed7f324511bb8dbf680819aad6",
+    "bytes": 2115151,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "7572859950",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "7572859950.mp4",
+    "sha256": "b333d6c8f6916d296610c92354e633045df9417f1afdff0965bb7d31c11596f2",
+    "bytes": 1767103,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "7999756100",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "7999756100.mp4",
+    "sha256": "3ae2fdd37343e657ec874dc0ede08e1617e09cd20aff7fa32f7f9737b617f9f4",
+    "bytes": 2209176,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8080432373",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8080432373.mp4",
+    "sha256": "5e80c6e6c6957c5cd5c8f596a4f2fcecf3b10f3ed751c1accefa8e3200ab2e50",
+    "bytes": 9373548,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8224504302",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8224504302.mp4",
+    "sha256": "d405a7fabf8d3cd181d6082e7ea233fb6cf66ef9f99c3ec0e0785f43f44e8ad1",
+    "bytes": 4501731,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8241491518",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8241491518.mp4",
+    "sha256": "c41667fb37eb2a741e2882481d3398d6cef5847db90b8e5765e8772bb767bfcd",
+    "bytes": 3127530,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8252088130",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8252088130.mp4",
+    "sha256": "c594ea85c9dc4e2c6ddc5f8a9494889df2bbc1cec273b42fb8477acb7923d35f",
+    "bytes": 1524059,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8254300526",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8254300526.mp4",
+    "sha256": "d417b902d8efe83d6b408cac4357605e4e1dc93d0df90ea0f5e72ac459e2deed",
+    "bytes": 4808943,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8388104887",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8388104887.mp4",
+    "sha256": "44d2b2ce9832755752a5c9626f6de880ca5c8a9bdf0e510df6950e4b6fc34187",
+    "bytes": 4316537,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8552680285",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8552680285.mp4",
+    "sha256": "f742d3e31e850a14e7b6a988d895874d2b5c9de284d8d54bb82b479b594ba720",
+    "bytes": 1565009,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8557532213",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8557532213.mp4",
+    "sha256": "d4cc9f68ad570d73f40d49ed47c9743294976af683bd8c679e4cfab66b17ffc6",
+    "bytes": 1352628,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "8990144134",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "8990144134.mp4",
+    "sha256": "8f67aef46cd94571d333994bcd3afcd4b1be6621ee4f1e72e60a4da9593f975e",
+    "bytes": 1550069,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "9409566840",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "9409566840.mp4",
+    "sha256": "45f5a67848874cb74101c233d82b8d8d299ea7cb79bf6881e34643b662b70810",
+    "bytes": 3545120,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "9612838272",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "9612838272.mp4",
+    "sha256": "717a308a68680bc2467b927198e16cedbdc40d9ab3ee978b377e041fc862737b",
+    "bytes": 1666734,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  },
+  {
+    "video_id": "9873067604",
+    "repository": "VLM2Vec/nextqa-rawvideo",
+    "revision": "b454fdb10e211887097207db8dd74fcfa7b486ab",
+    "path": "9873067604.mp4",
+    "sha256": "8cec8d2cd77f15f5b2a6ca0eddf5f511e71bd8eda8cde69de3b14da0983e8d90",
+    "bytes": 4034355,
+    "provenance_note": "Third-party video mirror; annotations from official NExT-QA. No claim of byte identity to the original Google Drive archive."
+  }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+assets/
+vendor/
+cache/
+*.part
+*.safetensors
+*.gguf
+*.mp4
+*.pcap
+*.db

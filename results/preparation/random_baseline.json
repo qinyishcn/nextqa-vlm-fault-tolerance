@@ -1,0 +1,2015 @@
+{
+  "condition": "uniform_random_choice_without_model",
+  "seed": 20261012,
+  "generator": "Python random.Random seeded by seed/question_id",
+  "expected_accuracy": 0.2,
+  "realized_score": {
+    "questions": 495,
+    "answers_saved": 495,
+    "missing_answers": 0,
+    "invalid_answers": 0,
+    "correct": 83,
+    "accuracy": 0.16767676767676767
+  },
+  "realized_score_video_bootstrap_95": [
+    0.13438735177865613,
+    0.20108797809741744
+  ],
+  "constant_option_accuracy": {
+    "A": 0.24444444444444444,
+    "B": 0.1595959595959596,
+    "C": 0.2,
+    "D": 0.19797979797979798,
+    "E": 0.19797979797979798
+  },
+  "answer_position_counts": {
+    "C": 99,
+    "B": 79,
+    "D": 98,
+    "E": 98,
+    "A": 121
+  },
+  "predictions": [
+    {
+      "question_id": "2435100235_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2834146886_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5026660202_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9873067604_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6582763207_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3171006258_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5116088152_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2984974097_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2793806282_12",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8557532213_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4130504920_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9612838272_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4485498145_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3445431963_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6078524411_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3321261856_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2435100235_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5237219621_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2793806282_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "9409566840_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2834146886_9",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5205081904_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2957808913_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4151403382_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3655906094_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3655906094_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6592821115_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5026660202_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2736413196_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5349969207_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2984974097_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6516459343_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6592821115_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4151403382_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5237219621_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8557532213_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4336654741_9",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2990321092_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5533380417_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3655906094_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8224504302_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4132599924_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5116088152_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4336654741_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8224504302_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3655906094_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8557532213_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4146348376_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "9409566840_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2793806282_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "9612838272_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4857781123_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8552680285_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5919180502_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5766018720_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8557532213_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8241491518_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6582763207_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8224504302_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8552680285_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6592821115_11",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4968805923_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6582763207_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5940941487_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8254300526_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2834146886_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4336654741_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2957808913_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2736413196_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3655906094_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2990321092_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2957808913_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8241491518_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4336654741_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3321261856_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6621511673_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5349969207_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3171006258_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6516459343_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5766018720_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4857781123_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5933003028_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3372023610_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3321261856_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8990144134_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "9409566840_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "7572859950_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5919180502_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5205081904_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6542914065_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2984974097_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8990144134_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5237219621_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8080432373_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5533380417_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8224504302_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6542914065_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8552680285_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6542914065_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3708066257_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5026660202_9",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3372023610_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6329954198_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2977504625_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5026660202_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6329954198_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5919180502_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5667931404_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "9873067604_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2435100235_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5919180502_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5667931404_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6582763207_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8552680285_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6516459343_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5919180502_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2599937944_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8552680285_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8557532213_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4968805923_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5026660202_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8254300526_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6329954198_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5940941487_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8080432373_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3171006258_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8254300526_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8241491518_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2957808913_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3321261856_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8080432373_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2984974097_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6542914065_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9873067604_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6516459343_10",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5026660202_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4968805923_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6582763207_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3445431963_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2957808913_10",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3708066257_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2957808913_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4412508597_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3372023610_12",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "9409566840_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4412508597_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6582763207_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8252088130_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3708066257_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6291413193_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3708066257_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4412508597_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5237219621_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4857781123_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5116088152_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3372023610_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8552680285_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5116088152_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5205081904_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4336654741_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5766018720_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8080432373_9",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6592821115_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "7572859950_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6516459343_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2736413196_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2977504625_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2957808913_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7442562474_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5766018720_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6516459343_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5940941487_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "7572859950_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6542914065_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3171006258_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5919180502_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8254300526_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5308503740_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8224504302_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8252088130_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2990321092_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "9873067604_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6516459343_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5533380417_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3321261856_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6329954198_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8224504302_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6291413193_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6582763207_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2990321092_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2834146886_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4857781123_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6078524411_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2599937944_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6621511673_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6621511673_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4485498145_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2957808913_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6329954198_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2834146886_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5667931404_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5205081904_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2435100235_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "7999756100_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5308503740_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6078524411_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6592821115_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4336654741_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2793806282_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2977504625_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8080432373_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4412508597_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3372023610_11",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3445431963_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4151403382_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2736413196_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5533380417_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6291413193_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8254300526_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6329954198_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5667931404_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6291413193_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5940941487_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2977504625_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8557532213_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2793806282_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5933003028_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3708066257_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4151403382_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4151403382_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2599937944_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "9873067604_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8241491518_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5205081904_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4132599924_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6516459343_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8990144134_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5533380417_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5116088152_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6592821115_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3321261856_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2984974097_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8224504302_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5237219621_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "7442562474_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2736413196_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2793806282_11",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4336654741_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8557532213_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8254300526_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2793806282_10",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8990144134_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "9873067604_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6542914065_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2793806282_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6592821115_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5766018720_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8252088130_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6592821115_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5766018720_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "7442562474_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2834146886_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "7999756100_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3372023610_10",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2990321092_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6542914065_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2435100235_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6592821115_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8388104887_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6592821115_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2834146886_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4130504920_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8241491518_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5116088152_8",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6078524411_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "7442562474_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6516459343_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6516459343_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4130504920_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6291413193_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2793806282_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6329954198_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "7999756100_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4968805923_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8224504302_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3655906094_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8388104887_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3372023610_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5026660202_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8388104887_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3372023610_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3655906094_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8557532213_9",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5533380417_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4130504920_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5116088152_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8388104887_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3445431963_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6621511673_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4412508597_5",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3171006258_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3372023610_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2984974097_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4968805923_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3321261856_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4130504920_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8552680285_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2435100235_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6078524411_5",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6592821115_12",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6592821115_10",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5308503740_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4857781123_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3708066257_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "9409566840_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5008618500_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8254300526_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2984974097_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8557532213_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3655906094_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8224504302_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5667931404_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "7999756100_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6078524411_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2736413196_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6078524411_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6621511673_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7999756100_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "9873067604_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2736413196_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8388104887_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2957808913_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3171006258_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2990321092_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "9612838272_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6592821115_13",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8224504302_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4132599924_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2957808913_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3171006258_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5766018720_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "7442562474_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8080432373_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8557532213_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2599937944_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4968805923_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "7999756100_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2977504625_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4968805923_8",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8388104887_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5116088152_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6291413193_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5533380417_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8254300526_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4968805923_10",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3321261856_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2793806282_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3445431963_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8241491518_9",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8252088130_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5667931404_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2977504625_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8241491518_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2435100235_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6329954198_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7442562474_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6329954198_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6516459343_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "9873067604_7",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2793806282_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "6621511673_8",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5008618500_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "7572859950_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5766018720_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4485498145_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "4336654741_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_11",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6582763207_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2599937944_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6542914065_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8080432373_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3655906094_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4968805923_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3655906094_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5667931404_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5008618500_10",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "7442562474_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6621511673_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8080432373_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5205081904_2",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "9873067604_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2599937944_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2599937944_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2834146886_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6592821115_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5940941487_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5116088152_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5919180502_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4151403382_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4146348376_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5237219621_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9612838272_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4132599924_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5008618500_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3372023610_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8252088130_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4151403382_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4968805923_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6621511673_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "8241491518_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8388104887_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "2984974097_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "2435100235_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3171006258_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8990144134_6",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4485498145_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2599937944_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5205081904_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5349969207_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "9612838272_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "3372023610_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "3321261856_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5940941487_4",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_4",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4485498145_7",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6582763207_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8388104887_2",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5008618500_8",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4485498145_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5533380417_3",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8241491518_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4146348376_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6291413193_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5933003028_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4130504920_6",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4485498145_3",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "4857781123_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5940941487_3",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4130504920_0",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4968805923_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5349969207_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6621511673_6",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "3372023610_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "9612838272_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8080432373_5",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5026660202_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "6291413193_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3372023610_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5919180502_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2834146886_7",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8254300526_9",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4485498145_4",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5308503740_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "3445431963_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5008618500_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "6542914065_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6078524411_0",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2736413196_2",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "5766018720_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "4412508597_6",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7999756100_1",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8990144134_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2984974097_9",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "2990321092_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9612838272_7",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2793806282_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2793806282_8",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "8552680285_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7442562474_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "4485498145_5",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6582763207_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2435100235_0",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "8552680285_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8252088130_1",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "6621511673_2",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8080432373_0",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "5933003028_0",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "9873067604_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "2834146886_6",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5919180502_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4132599924_1",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "8552680285_7",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "5349969207_4",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "8990144134_3",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "7572859950_5",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "2990321092_2",
+      "raw_response": "A"
+    },
+    {
+      "question_id": "5919180502_1",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "3171006258_1",
+      "raw_response": "E"
+    },
+    {
+      "question_id": "5205081904_3",
+      "raw_response": "C"
+    },
+    {
+      "question_id": "7442562474_9",
+      "raw_response": "B"
+    },
+    {
+      "question_id": "4412508597_4",
+      "raw_response": "D"
+    },
+    {
+      "question_id": "6078524411_4",
+      "raw_response": "C"
+    }
+  ],
+  "interpretation": "This is a random-selector baseline, not a VLM result. Theoretical expectation is exactly 20%; one realized draw can differ."
+}
