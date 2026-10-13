@@ -1,8 +1,37 @@
 # NExT-QA 视频依赖与特征容错实验
 
-**当前状态：真实模型一致性核验通过，正式评测运行中；尚无完整准确率报告。**
-用户已确认采用 `LLaVA-Video-7B-Qwen2`，先完成固定495题的全部对照。
-以下随机基线由随机选项生成器计算，不代表任何模型准确率。
+**已完成：60视频、495题、48组条件，共23,760条模型回答。**
+采用 `LLaVA-Video-7B-Qwen2`，语言模型线性层NF4双量化、BF16计算。
+详细结论见 [实测报告](results/offline_20261012/report_findings_zh.md)，
+完整统计见 [自动统计报告](results/offline_20261012/report_zh.md)。
+本轮是离线中间特征擦除；尚未完成新模型的原版Testbed RTC/netem网络测试。
+
+| 条件 | 准确率 |
+|---|---:|
+| 全视频等间隔16帧，无损 | 77.98% |
+| 全视频等间隔64帧，无损 | 80.81% |
+| 纯文本 | 48.28% |
+| 错配视频16帧 | 38.79% |
+| 独立高斯特征16帧 | 45.25% |
+| 全零特征16帧 / 100%擦除 | 45.45% |
+| 均匀随机选择的理论期望 | 20.00% |
+
+**纯文本和错误视觉总体对照仍明显高于随机。**
+更广的时间覆盖及更多不同帧有增益；打乱或倒放的总体差异区间跨零，
+未确认明显的总体顺序敏感度。各项视频分组区间及成对比较见报告。
+80%/90%/95%擦除时的平均准确率为72.86%/65.19%/57.71%。
+
+![完整特征擦除曲线](results/offline_20261012/figures/feature_erasure_curve.png)
+
+[48组结果CSV](results/offline_20261012/condition_summary.csv) ·
+[完整曲线CSV](results/offline_20261012/loss_curve.csv) ·
+[逐题成对CSV](results/offline_20261012/paired_predictions.csv) ·
+[原始模型回答](results/offline_20261012/predictions/)
+
+23,760条回答独立计分，495题与官方CSV逐项匹配；
+2,760个实际接收特征缓冲区及2,040份损伤掩码完成CPU独立重建核验。
+暂停前14,163条回答逐字节保留，最终缺失、运行错误和格式无效均为0。
+证据见 [独立核验](results/offline_20261012/independent_verification.json)。
 
 目标是测量正常视觉相对纯文本的增益，区分帧数、时间覆盖和时间顺序的作用，
 并测量视觉中间特征分包擦除后的任务准确率。预先约定见 [protocol.md](docs/protocol.md)。
@@ -30,7 +59,7 @@
 | 始终选择A（答案位置基线） | 121/495 | 24.44% |
 
 一次随机选择可以偏离理论期望；不通过更换种子使其贴近20%。
-纯文本、错配视频、全零特征是否接近随机，必须实测后判断。
+实测纯文本、错配视频、全零及高斯特征总体对照均超出预设随机近似等效范围。
 使用以视频为单位的区间，并将“无法拒绝差异”和“±5个百分点内等效”区分。
 子集类型构成与全验证集不同，结果只代表固定子集。
 
@@ -57,10 +86,10 @@ python -m unittest discover -s tests -v
 计分器保留缺失、拒绝未知或重复问题ID，并支持同题成对比较：
 
 ```sh
-python scripts/score_results.py --manifest results/preparation/dataset_manifest.json --predictions run/predictions.jsonl --reference run/text_only.jsonl --output run/summary.json
+python scripts/score_results.py --manifest results/preparation/dataset_manifest.json --predictions results/offline_20261012/predictions/uniform_16.jsonl --reference results/offline_20261012/predictions/text_only.jsonl --output uniform16_summary.json
 ```
 
-此命令是后续结果的计分接口；当前仓库没有上述两个模型预测文件。
+此命令可直接从已公开的原始回答重新计分，不需要模型权重或GPU。
 
 标注来自固定提交的官方仓库。视频使用固定版本的第三方镜像，并逐文件验证LFS
 SHA-256；未核验它们与官方 Google Drive 压缩包字节相同。

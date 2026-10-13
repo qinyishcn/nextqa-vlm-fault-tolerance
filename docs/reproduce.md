@@ -81,5 +81,27 @@ python scripts/analyze_results.py --manifest results/preparation/dataset_manifes
 13点完整擦除曲线与3组掩码结果，以及PNG/PDF图表。
 随机等效判据为90%视频分组区间完全落入[15%,25%]，不将“不显著”当成等效。
 
+批次完成并生成统计后，在推理环境执行独立CPU复核：
+
+```sh
+.venv-inference/bin/python scripts/verify_completed.py --assets "$NEXTQA_ASSETS" --results results/offline_20261012 --manifest results/preparation/dataset_manifest.json --plan configs/experiment.json
+```
+
+复核直接读取官方CSV核对题目、选项与标签，独立计分全部槽位，并从缓存特征
+重新构造每个实际接收缓冲区。分包掩码、缺失数量、置零字节和接收哈希须全部匹配；
+同时核对暂停前14,163条回答的原始文件前缀哈希。该步骤不生成新模型答案。
+
+在分析环境生成结论报告和补充成对分析：
+
+```sh
+python scripts/summarize_findings.py --results results/offline_20261012 --manifest results/preparation/dataset_manifest.json
+```
+
+该脚本读取固定原始回答和已通过的独立核验，输出`report_findings_zh.md`、
+`supplementary_analysis.json`及`loss_paired_differences.csv`。
+补充的T类成对比较和损伤相对无损差异区间在推理完成后汇总，明确标记为探索性分析。
+推理期间的15个源码文件保持不变，快照见`execution_source_manifest.json`；
+独立核验及结论汇总脚本在推理完成前后另行加入，不参与生成模型答案。
+
 本轮不执行RTC、网卡netem或network profile；这些真实网络任务必须继续沿用原版
 Testbed流程，不能把本离线分包擦除当作其结果。

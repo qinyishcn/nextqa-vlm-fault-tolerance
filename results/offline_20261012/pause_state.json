@@ -1,0 +1,13 @@
+{
+  "status": "paused_by_user",
+  "reason": "Machine operating noise at night; user intends shutdown and daytime resume",
+  "paused_at_utc": "2026-10-12T15:33:28.317025+00:00",
+  "fixed_slots": 23760,
+  "saved_slots": 14163,
+  "remaining_slots": 9597,
+  "status_counts": {
+    "answered": 14163
+  },
+  "unfinished_answer_attempts": 0,
+  "resume_policy": "Keep saved outputs; resume only remaining slots with same model, environment, plan and manifest"
+}
