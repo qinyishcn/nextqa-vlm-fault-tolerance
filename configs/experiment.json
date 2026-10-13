@@ -1,0 +1,407 @@
+{
+  "model": "lmms-lab/LLaVA-Video-7B-Qwen2",
+  "model_revision": "013210b3aff822f1558b166d39c1046dd109520f",
+  "source_revision": "bce12e479bc4dfee2b9c50c88137b01ff51bd483",
+  "manifest_sha256": "8c878aed0264815f7f23b0154832d211a0b4d31f4e33ea044fd8fc1481a7aa4e",
+  "manifest_identity_encoding": "UTF-8 json.dumps(sort_keys=True,separators=(comma,colon)); ensure_ascii=True",
+  "seed": 20261012,
+  "wire_feature_packet_bytes": 1080,
+  "feature_dtype": "little-endian F32",
+  "feature_boundary": "get_2dPool output, before grid newline",
+  "reference_frames_for_tolerance": 16,
+  "loss_rates": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    1
+  ],
+  "loss_mask_repeats": 3,
+  "endpoint_aliases": {
+    "0": "uniform_16",
+    "1": "zero_16"
+  },
+  "conditions": [
+    {
+      "id": "text_only",
+      "kind": "text",
+      "frames": 0
+    },
+    {
+      "id": "text_timing_16",
+      "kind": "text_timing",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "native_center_1",
+      "kind": "clean",
+      "frames": 1,
+      "scheme": "native_center"
+    },
+    {
+      "id": "native_center_4",
+      "kind": "clean",
+      "frames": 4,
+      "scheme": "native_center"
+    },
+    {
+      "id": "native_center_16",
+      "kind": "clean",
+      "frames": 16,
+      "scheme": "native_center"
+    },
+    {
+      "id": "native_center_64",
+      "kind": "clean",
+      "frames": 64,
+      "scheme": "native_center"
+    },
+    {
+      "id": "uniform_4",
+      "kind": "clean",
+      "frames": 4,
+      "scheme": "uniform"
+    },
+    {
+      "id": "uniform_16",
+      "kind": "clean",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "uniform_64",
+      "kind": "clean",
+      "frames": 64,
+      "scheme": "uniform"
+    },
+    {
+      "id": "repeat_16",
+      "kind": "repeat",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "shuffle_16",
+      "kind": "shuffle",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "reverse_16",
+      "kind": "reverse",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "wrong_video_16",
+      "kind": "wrong_video",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "gaussian_16",
+      "kind": "gaussian",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "zero_16",
+      "kind": "zero",
+      "frames": 16,
+      "scheme": "uniform"
+    },
+    {
+      "id": "loss_005_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.05,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_005_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.05,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_005_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.05,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_010_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.1,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_010_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.1,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_010_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.1,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_020_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.2,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_020_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.2,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_020_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.2,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_030_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.3,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_030_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.3,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_030_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.3,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_040_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.4,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_040_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.4,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_040_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.4,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_050_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.5,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_050_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.5,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_050_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.5,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_060_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.6,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_060_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.6,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_060_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.6,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_070_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.7,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_070_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.7,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_070_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.7,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_080_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.8,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_080_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.8,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_080_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.8,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_090_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.9,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_090_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.9,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_090_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.9,
+      "mask_repeat": 2
+    },
+    {
+      "id": "loss_095_s0",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.95,
+      "mask_repeat": 0
+    },
+    {
+      "id": "loss_095_s1",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.95,
+      "mask_repeat": 1
+    },
+    {
+      "id": "loss_095_s2",
+      "kind": "loss",
+      "frames": 16,
+      "scheme": "uniform",
+      "loss_rate": 0.95,
+      "mask_repeat": 2
+    }
+  ],
+  "questions_per_condition": 495,
+  "missing_invalid_answers": "count wrong, fixed manifest denominator; no replacement reruns",
+  "packet_model": "offline independent packet erasure; shared mask per video/repeat; nested masks across rates",
+  "gaussian_control": "seeded independent N(0,1), BF16 rounding; out-of-distribution control",
+  "timing_control": "same chronological slot timestamps for matched 16-frame ablations",
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 8
+  },
+  "runtime_optimizations": {
+    "encoder_batch_frames": 4,
+    "prefill_chunk_tokens": 1024,
+    "shared_video_prefix_cache": true,
+    "last_position_lm_head": true
+  },
+  "training": false,
+  "quantization": "NF4 double quantization, BF16 compute; LM linear layers only",
+  "score_scope": "fixed selected 60-video / 495-question subset; not all-validation estimate"
+}

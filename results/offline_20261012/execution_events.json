@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "time_utc": "2026-10-12T12:59:37Z",
+      "stage": "feature_encoding_before_formal_answers",
+      "action": "Controlled interruption and resume with unused language embedding and output modules on CPU during encoding only",
+      "reason": "Initial two video encodes took 192.77 and 193.75 seconds near the 8GB VRAM budget",
+      "completed_feature_caches_retained": 2,
+      "formal_answer_attempts_before_interruption": 0,
+      "unchanged": ["model weights", "BF16 vision computation", "batch size 4", "frame selections", "scoring plan", "previous feature cache bytes"],
+      "checkpoint_storage": "Copied to WSL native filesystem; all 15 files reverified against the frozen SHA-256 manifest",
+      "resume_gate": "Recomputed first four cached frames must match their existing feature hashes",
+      "observed_resume_gate": "Passed before accepting existing cache 1/60",
+      "first_three_new_video_encode_seconds": [9.14, 9.30, 9.83],
+      "checkpoint_native_filesystem_load_approx_seconds": 15.5
+    }
+  ]
+}

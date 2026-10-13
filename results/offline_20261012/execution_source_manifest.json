@@ -1,0 +1,67 @@
+{
+  "recorded_at_utc": "2026-10-12T13:32:04.520887+00:00",
+  "matching_source_commit": "76dbe0f3ba36ba922ea1369c9f39ba461fd8f9bd",
+  "note": "Source snapshot during ongoing fixed formal run; no model accuracy inspected or tuning performed.",
+  "files": [
+    {
+      "path": "llava_runtime.py",
+      "sha256_normalized_utf8": "4d074a42c6311362b43a7f6cf3ceee59d2261a6cb5186ae02fb2f99974cac406"
+    },
+    {
+      "path": "nextqa_eval.py",
+      "sha256_normalized_utf8": "4a0ecc3992b500f3775a20367736109a3914b5c1dc8aafe8c76c44a7107613d8"
+    },
+    {
+      "path": "prefix_cache.py",
+      "sha256_normalized_utf8": "f3c0ce0058d2dd7628e66179270342a62cb916325a9e58305563ca65309cada8"
+    },
+    {
+      "path": "scripts/analyze_results.py",
+      "sha256_normalized_utf8": "97ef6303cd99db46f39c60c893e017d57139d082827299cf78f388644c9c7750"
+    },
+    {
+      "path": "scripts/check_pilot.py",
+      "sha256_normalized_utf8": "0e1ac2fe656cbacdea843aece656f0dc9dfb2941f0402aa7964d79f9ecd49cc1"
+    },
+    {
+      "path": "scripts/download_checkpoint.py",
+      "sha256_normalized_utf8": "5da3bbd3ddfbe7931089386749c4fdd358c54db2047b1ec5ec480f487396c43d"
+    },
+    {
+      "path": "scripts/fetch_assets.py",
+      "sha256_normalized_utf8": "308cd2bec754743da859b16f9201c1a3d87c1667694f8e35ce293c3901c1d6c0"
+    },
+    {
+      "path": "scripts/make_plan.py",
+      "sha256_normalized_utf8": "7ec2036c2ba0570e79ac38ca12812cdf6cd650dcb79495ed3a364569349b2d8c"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "sha256_normalized_utf8": "48269627acdbd54121093b03bd491320a0b2725ad4bef25200a4eb4538b594d6"
+    },
+    {
+      "path": "scripts/prepare_frames.py",
+      "sha256_normalized_utf8": "fa7c3b68eb6a403bf51d3f96cbc95bbc1cc7f24397a3272ec4a32d1b52c1518f"
+    },
+    {
+      "path": "scripts/random_baseline.py",
+      "sha256_normalized_utf8": "7447828c3c0070a189db78a144307c27cdd3bf13c10ffafff9d448c5dcf89884"
+    },
+    {
+      "path": "scripts/run_study.py",
+      "sha256_normalized_utf8": "88fcf6d8a103356bd09e3c98b211076f5ff7708aa0348738a8780a4e668a3b8b"
+    },
+    {
+      "path": "scripts/score_results.py",
+      "sha256_normalized_utf8": "86c1748a16cd8482ad203669d63416a7726d874e717ed06293540aedb364d59f"
+    },
+    {
+      "path": "statistics_eval.py",
+      "sha256_normalized_utf8": "fc242c0310948eee2f8d00f32682f6168b04077e089fd693aec567379a95909c"
+    },
+    {
+      "path": "study_controls.py",
+      "sha256_normalized_utf8": "bc48ae75649b22b97ec1733f6830ec44dbb6e41156da7d51a5ae5ce450bfffe9"
+    }
+  ]
+}

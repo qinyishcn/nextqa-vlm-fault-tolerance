@@ -1,0 +1,56 @@
+{
+  "plan_sha256": "7c5d646d830d8783029f1e20abb26e7412fbdbe460f69965d8aa409f871ea209",
+  "manifest_sha256": "8c878aed0264815f7f23b0154832d211a0b4d31f4e33ea044fd8fc1481a7aa4e",
+  "runtime": {
+    "model": "lmms-lab/LLaVA-Video-7B-Qwen2",
+    "revision": "013210b3aff822f1558b166d39c1046dd109520f",
+    "quantization": "LM linear layers: NF4 + double quantization; BF16 compute",
+    "unquantized_modules": [
+      "vision_tower",
+      "mm_projector",
+      "lm_head",
+      "embed_tokens"
+    ],
+    "linear4bit_count": 196,
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "context_length": 32768,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "cuda": "12.1",
+    "packages": {
+      "torch": "2.4.1",
+      "torchvision": "0.19.1",
+      "transformers": "4.45.2",
+      "tokenizers": "0.20.4",
+      "bitsandbytes": "0.44.1",
+      "accelerate": "0.34.2",
+      "numpy": "1.26.4",
+      "Pillow": "12.2.0",
+      "safetensors": "0.7.0",
+      "open_clip_torch": "2.26.1",
+      "timm": "1.0.9"
+    },
+    "feature_boundary": "official get_2dPool output, before add_token_per_grid",
+    "feature_wire_dtype": "little-endian float32",
+    "implementation_sha256": {
+      "llava_runtime.py": "4d074a42c6311362b43a7f6cf3ceee59d2261a6cb5186ae02fb2f99974cac406",
+      "prefix_cache.py": "f3c0ce0058d2dd7628e66179270342a62cb916325a9e58305563ca65309cada8",
+      "study_controls.py": "bc48ae75649b22b97ec1733f6830ec44dbb6e41156da7d51a5ae5ce450bfffe9"
+    },
+    "generation": {
+      "do_sample": false,
+      "num_beams": 1,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 8,
+      "eos_token_id": [
+        151645,
+        151643
+      ]
+    }
+  },
+  "scope": "offline feature erasure; no RTC/network emulation"
+}

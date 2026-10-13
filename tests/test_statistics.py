@@ -17,6 +17,13 @@ class StatisticalEvidenceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             fixed_scores([{'question_id': 'q1', 'label': 'A'}], [{'question_id': 'unknown'}])
 
+    def test_saved_runtime_error_is_unavailable_rather_than_format_invalid(self):
+        values, score = fixed_scores([{'question_id': 'q1', 'label': 'A'}],
+            [{'question_id': 'q1', 'raw_response': None, 'status': 'generation_error'}])
+        self.assertEqual(values, [0])
+        self.assertEqual((score['records_saved'], score['answers_saved']), (1, 0))
+        self.assertEqual((score['unavailable_answers'], score['invalid_answers'], score['error_records']), (1, 0, 1))
+
     def test_insufficient_video_clusters_do_not_imply_equivalence(self):
         self.assertIsNone(cluster_interval([1, 0], ['same', 'same']))
         self.assertEqual(random_equivalence(None), 'insufficient_video_clusters')

@@ -16,18 +16,24 @@ def fixed_scores(questions, records):
         if qid not in expected or qid in saved:
             raise ValueError('Unexpected or duplicate result identity')
         saved[qid] = record
-    values, missing, invalid = [], 0, 0
+    values, missing, invalid, unavailable, errors = [], 0, 0, 0, 0
     for question in questions:
         record = saved.get(question['question_id'])
         if record is None:
             missing += 1
+            unavailable += 1
             answer = None
         else:
-            answer = parse_answer(record.get('raw_response'))
-            invalid += answer is None
+            raw = record.get('raw_response')
+            answer = parse_answer(raw)
+            unavailable += raw is None
+            invalid += raw is not None and answer is None
+            errors += record.get('status', 'answered') != 'answered'
         values.append(int(answer == question['label']))
-    return values, {'questions': len(questions), 'answers_saved': len(saved),
-        'missing_answers': missing, 'invalid_answers': invalid, 'correct': sum(values),
+    return values, {'questions': len(questions), 'records_saved': len(saved),
+        'answers_saved': sum(row.get('raw_response') is not None for row in saved.values()),
+        'missing_answers': missing, 'unavailable_answers': unavailable, 'error_records': errors,
+        'invalid_answers': invalid, 'correct': sum(values),
         'accuracy': sum(values) / len(questions)}
 
 

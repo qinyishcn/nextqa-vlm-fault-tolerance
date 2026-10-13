@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-13T02:29:04.923839+00:00",
+  "frozen_execution_sources_unchanged": 15,
+  "unique_started_attempts": 23760,
+  "saved_answers_match_attempt_ledger": 23760,
+  "all_answers_match_prespecified_strict_parser": true,
+  "local_document_links_checked": 45,
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 19,
+    "execution_environment": "WSL independent LLaVA inference venv; Python 3.12"
+  },
+  "visual_review": [
+    "feature_erasure_curve.png",
+    "frame_dependence.png",
+    "baseline_controls.png"
+  ],
+  "visual_review_note": "All three generated PNGs viewed; labels and legends readable, full 0-100% erasure range retained",
+  "independent_feature_replay": "independent_verification.json"
+}
